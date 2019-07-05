@@ -1,17 +1,17 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+title:          Hyeminlily
+description:    "내 한계 깨부수기"
+baseurl:        ""
+url:            "https://hyeminlily.com"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Hyemin Lee
+  url:          https://github.com/hyeminlily
+  email:        hyemin518@naver.com
 
 # Build settings
 markdown:       kramdown
