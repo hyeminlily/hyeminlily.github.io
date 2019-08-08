@@ -1,27 +1,30 @@
 ﻿# Site settings
-title:          Hyeminlily
-description:    "성실하고 싶은 블로그"
-baseurl:        ""
-url:            "https://hyeminlily.github.io"
+locale: "ko-KR"
+title: "꾸준하고 싶은 블로그"
+description: "꾸준하게, 성실하고 싶은 블로그"
+url: "https://hyeminlily.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Hyemin Lee
-  url:          https://github.com/hyeminlily
-  email:        hyemin518@naver.com
+  name: "Hyemin Lee"
+  bio: "디테일 집착 끝판왕, 집요한 문제 해결사, 오버 커뮤니케이터."
+  location: "Incheon, Korea"
+  email: "hyemin518@naver.com"
+  url: https://github.com/hyeminlily
+  github: "hyeminlily"
 
 # Build settings
-markdown:       kramdown
+markdown: kramdown
 include:
   - _pages
 
 # Assets
 sass:
-  sass_dir:     _sass
-  style:        compressed
+  sass_dir: _sass
+  style: compressed
 
 # Gems
 plugins:
@@ -31,8 +34,8 @@ plugins:
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
+permalink: /:year-:month-:day/:title
+paginate: 5
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
